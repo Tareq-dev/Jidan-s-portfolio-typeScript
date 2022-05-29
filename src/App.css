@@ -1,7 +1,19 @@
 .App {
   text-align: center;
 }
-
+.bg-dna {
+  background-image: url("https://i.pinimg.com/originals/84/14/0d/84140d6de93311fb07ccbc6f7214aa7e.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-work{
+  
+  background-image: url("https://scitechdaily.com/images/DNA-Genetics.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
