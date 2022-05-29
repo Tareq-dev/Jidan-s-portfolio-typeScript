@@ -10,7 +10,7 @@ import './Mywork.css'
 
 const MyWork = () => {
      return (
-          <div className="py-8 pb-14 bg-work">
+          <div className="py-8 pb-14 bg-work px-5">
           <h1 className="text-center text-white text-3xl mt-3 mb-8 font-bold">Reaserch</h1>
             <Swiper
               effect={"coverflow"}
@@ -29,7 +29,7 @@ const MyWork = () => {
               className="mySwiper"
             >
               <SwiperSlide>
-               <div className="p-2">
+               <div className="px-2">
                <img
                src="https://static.scientificamerican.com/sciam/cache/file/AC11C426-00F4-49B4-B68D2871D0F1BD65_source.jpg?w=590&h=800&394D501B-A280-4491-AF19797B0E4675FC"
                alt="Trek"

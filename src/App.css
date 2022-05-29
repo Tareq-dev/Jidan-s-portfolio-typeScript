@@ -7,12 +7,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bg-work{
-  
+.bg-work {
   background-image: url("https://scitechdaily.com/images/DNA-Genetics.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg-content {
+  padding: 25px;
+  /* From https://css.glass */
+  background: rgba(110, 149, 248, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.2px);
+  -webkit-backdrop-filter: blur(1.2px);
+  border: 1px solid rgba(110, 149, 248, 0.3);
 }
 .App-logo {
   height: 40vmin;
