@@ -7,8 +7,7 @@ interface Props{
 }
 const BlogCard: FC<Props> = ({blog}) => {
 const navigate = useNavigate()
-     const navigateToSingleBlog=(id:any) => {
-          console.log(id)
+     const navigateToSingleBlog=(id:string) => {
           navigate(`/blogs/${id}`)
      }
      return (

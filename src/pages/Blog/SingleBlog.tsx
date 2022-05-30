@@ -1,18 +1,30 @@
-import React from 'react';
+import React, {  useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import useBlogs from '../../Hooks/useBlogs';
+import BlogCardDetails from '../../components/Types/models';
 
+interface Props{
+  blog:BlogCardDetails,
+}
 const SingleBlog = () => {
   const {id} = useParams();
-  const [blogs]= useBlogs()
+  const [blog,setBlog]=useState<Props[]>([]);
 
+  useEffect(() => {
+    fetch(`http://localhost:5000/blogs/${id}`)
+    .then(res=>res.json())
+    .then(data => 
+      setBlog(data)
+      )
+  },[id])
+  console.log(blog);
+  
      return (
           <section className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
-    <img className="mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+    <img className="mb-10 object-cover object-center rounded" alt="hero" src="kjkj" />
     <div className="w-full flex flex-col mb-16 items-center text-center">
-      <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Knausgaard typewriter readymade marfa</h1>
-      <p className="mb-8 leading-relaxed">Kickstarter biodiesel roof party wayfarers cold-pressed. Palo santo live-edge tumeric scenester copper mug flexitarian. Prism vice offal plaid everyday carry. Gluten-free chia VHS squid listicle artisan.</p>
+      <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-gray-900">gg</h1>
+      <p className="mb-8 leading-relaxed">jjjj</p>
     </div>
     <div className="flex w-full justify-center items-end">
         <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
@@ -23,7 +35,7 @@ const SingleBlog = () => {
       </div>
   </div>
 </section>
-     );
+);
 };
 
 export default SingleBlog;
