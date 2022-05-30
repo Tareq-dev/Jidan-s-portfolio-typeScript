@@ -189,7 +189,10 @@ const Blog = () => {
     </div>
   </div>
 </div>
-          </div>
+<div className='flex justify-center mb-5'>
+  <button className='btn'>See more blogs</button>
+</div>
+ </div>
      );
 };
 

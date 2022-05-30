@@ -10,7 +10,7 @@ import './Mywork.css'
 
 const MyWork = () => {
      return (
-          <div className="py-8 pb-14 bg-work px-5">
+          <div className="py-8 pb-14 bg-dna px-4">
           <h1 className="text-center text-white text-3xl mt-3 mb-8 font-bold">Reaserch</h1>
             <Swiper
               effect={"coverflow"}
@@ -35,7 +35,7 @@ const MyWork = () => {
                alt="Trek"
              />
              <div className='text-center font-bold'>
-             <h1 className="mt-6 bg-yellow-400 py-1 text-3xl">Cancer Reaserch</h1>
+             <h1 className="mt-6 bg-yellow-400 py-1 md:text-3xl">Cancer Reaserch</h1>
              <button className='btn bg-info text-black mt-4 btn-md font-bold text-md'>Details</button>
              </div>
                </div>
@@ -47,7 +47,7 @@ const MyWork = () => {
                alt="Trek"
              />
              <div className='text-center font-bold'>
-             <h1 className="mt-6 bg-yellow-400 py-1 text-3xl">Covid19 Reaserch</h1>
+             <h1 className="mt-6 bg-yellow-400 py-1 md:text-3xl">Covid19</h1>
              <button className='btn bg-info text-black mt-4 btn-md font-bold text-md'>Details</button>
              </div>
                </div>
@@ -59,8 +59,8 @@ const MyWork = () => {
                alt="Trek"
              />
              <div className='text-center font-bold'>
-             <h1 className="mt-6 bg-yellow-400 py-1 text-3xl">Mutation</h1>
-             <button className='btn bg-info text-black mt-4 btn-md font-bold text-md'>Details</button>
+             <h1 className="mt-6 bg-yellow-400 py-1 md:text-3xl">Mutation</h1>
+             <button className='btn bg-info text-black mt-4 btn-md font-bold md:text-md'>Details</button>
              </div>
                </div>
               </SwiperSlide>
@@ -71,7 +71,7 @@ const MyWork = () => {
                alt="Trek"
              />
               <div className='text-center font-bold'>
-             <h1 className="mt-6 bg-yellow-400 py-1 text-3xl">Genetic Mutation</h1>
+             <h1 className="mt-6 bg-yellow-400 py-1 md:text-3xl">Genetic Mutation</h1>
              <button className='btn bg-info text-black mt-4 btn-md font-bold text-md'>Details</button>
              </div>
                </div>
@@ -83,7 +83,7 @@ const MyWork = () => {
                alt="Trek"
              />
               <div className='text-center font-bold'>
-             <h1 className="mt-6 bg-yellow-400 py-1 text-3xl">Generical Mutation</h1>
+             <h1 className="mt-6 bg-yellow-400 py-1 md:text-3xl">Generical Mutation</h1>
              <button className='btn bg-info text-black mt-4 btn-md font-bold text-md'>Details</button>
              </div>
                </div>
@@ -95,7 +95,7 @@ const MyWork = () => {
                alt="Trek"
              />
             <div className='text-center font-bold'>
-             <h1 className="mt-6 bg-yellow-400 py-1 text-3xl">Dna Virus</h1>
+             <h1 className="mt-6 bg-yellow-400 py-1 md:text-3xl">Dna Virus</h1>
              <button className='btn bg-info text-black mt-4 btn-md font-bold text-md'>Details</button>
              </div>
                </div>
@@ -107,7 +107,7 @@ const MyWork = () => {
                alt="Trek"
              />
              <div className='text-center font-bold'>
-             <h1 className="mt-6 bg-yellow-400 py-1 text-3xl">Genes in human DNA</h1>
+             <h1 className="mt-6 bg-yellow-400 py-1 md:text-3xl">Genes in human DNA</h1>
              <button className='btn bg-info text-black mt-4 btn-md font-bold text-md '>Details</button>
              </div>
                </div>
@@ -119,7 +119,7 @@ const MyWork = () => {
                alt="Trek"
              />
              <div className='text-center font-bold'>
-             <h1 className="mt-6 bg-yellow-400 py-1 text-3xl">Diff Dna vs Rna</h1>
+             <h1 className="mt-6 bg-yellow-400 py-1 md:text-3xl">Diff Dna vs Rna</h1>
              <button className='btn bg-info text-black mt-4 btn-md font-bold text-md '>Details</button>
              </div>
                </div>
